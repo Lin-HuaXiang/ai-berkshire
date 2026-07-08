@@ -67,3 +67,12 @@ validation tools. Keep compatibility with both Claude Code and Codex users.
   `python3 scripts/sync-codex-skills.py --check`
   and, when slash prompts are relevant:
   `python3 scripts/sync-codex-prompts.py --check`
+
+## Commit Style
+
+- Use detailed Chinese commit messages for future commits in this repository.
+- Prefer a Conventional Commit-style prefix and scoped title, for example:
+  `feat(diagnostician): 经验记忆——诊断时注入历史相似 lesson(doc42 §7 ⑤)`.
+- For substantive changes, include a multi-line body with these sections when
+  applicable: background/context, implementation, tests, regression status, and
+  caveats or follow-up. Keep the body concrete and evidence-oriented.
