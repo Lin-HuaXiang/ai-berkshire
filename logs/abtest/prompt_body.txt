@@ -1,0 +1,12 @@
+你正在 /Users/zz/Documents/project/ai-berkshire 目录下工作。请完整执行本项目的投研 skill：
+
+1. 先用 Read 工具读取 skills/investment-research.md，按它定义的流程逐步执行（前置偏见自觉 → 数据收集 → 七步分析 → 综合决策备忘录 → 数据抽检准出）。
+2. 研究标的：美的集团（000333.SZ，A 股）。
+3. 遵守 CLAUDE.md 的投研核心原则：客观、数据支撑、区分事实与观点、呈现正反两面、不预设立场、关键数据至少 2 源交叉验证、估值必须用 tools/financial_rigor.py 验算禁止心算。
+4. 充分使用 WebSearch / WebFetch 联网取真实最新数据；用 Bash 调 tools/financial_rigor.py 与 tools/report_audit.py 做验算与抽检。
+5. 报告语言：中文。风格直接犀利。
+6. 最终把完整报告写入下方指定路径（仅写这一个文件，不要写到其他路径）。
+
+报告写入路径：__REPORT_PATH__
+
+完成后，用 3-5 行总结：你写了哪些核心结论、用了哪些数据源、是否通过准出抽检、有无数据缺口。
